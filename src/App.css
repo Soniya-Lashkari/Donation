@@ -46,12 +46,42 @@ h1 {
   align-items: center;
 }
 .right {
-  background-color: yellow;
+  background-image: url(./img/Rectangle\ 2.png);
   display: flex;
+  overflow: hidden;
   width: 50%;
+  position: static;
 }
-.right img {
-  width: -webkit-fill-available;
+.rightfirstimg {
+  display: flex;
+  margin-left: 20px;
+
+  align-items: center;
+  justify-content: center;
+}
+.rightfirstimg img {
+  height: 300px;
+  max-width: 100%;
+  display: flex;
+
+  /* flex-wrap: wrap; */
+  /* width: inherit; */
+}
+.rightsecondimg {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+}
+.rightsecondimg img {
+  height: 300px;
+
+  display: flex;
+  max-width: 100%;
+
+  /* flex-wrap: wrap; */
+  /* width: inherit; */
 }
 
 .btn1 {
@@ -202,23 +232,44 @@ h5 {
   background-color: white;
   flex-direction: column;
 }
-
-.container4-left img {
-  width: -webkit-fill-available;
+.leftimage {
+  display: flex;
+  flex-direction: row;
+}
+.leftimage img {
+  padding: 2px;
+  width: 40%;
 }
 .container4-right {
-  display: flex;
   width: 50%;
+  position: static;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
-.container4-right img {
-  width: -webkit-fill-available;
+
+.upper {
+  display: flex;
+  margin-top: 20%;
+}
+.upper img {
+  padding: 3px;
+  width: 50%;
+  height: auto;
+  box-sizing: border-box;
+}
+
+.lower img {
+  width: 50%;
+  height: auto;
+  box-sizing: border-box;
 }
 
 /*  css  for last block */
 .back {
   background-image: url("./img/Rectangle\ 19.png");
 
-  width:auto;
+  width: auto;
 
   position: relative;
   text-align: center;
@@ -226,7 +277,7 @@ h5 {
   background-size: cover;
   background-position: center;
   height: auto;
- 
+
   display: flex;
   opacity: 0.9;
   flex-direction: inherit;
@@ -271,7 +322,7 @@ h3 {
     width: 100%;
   }
   .right {
-    width: 100%;
+    display: none;
   }
 
   .Container2 {
@@ -294,10 +345,13 @@ h3 {
   .container4-right {
     width: 100%;
   }
+  .upper {
+    margin-top: 10%;
+  }
   .container4-left {
     width: 100%;
   }
- 
+
   .centerback {
     background-size: auto;
     align-items: flex-start;
@@ -310,10 +364,8 @@ h3 {
   }
   .leftback img {
     display: none;
-
-}
-.centerback h3{
+  }
+  .centerback h3 {
     align-items: self-start;
+  }
 }
-}
-
