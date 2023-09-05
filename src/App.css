@@ -1,3 +1,9 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  
+}
+
 /*  css  for first block */
 
 .Container1 {
@@ -17,6 +23,7 @@
   align-items: center;
   margin-left: 30px;
 }
+
 .inner2 {
   display: flex;
   align-items: center;
@@ -28,22 +35,31 @@ h1 {
   display: flex;
   align-items: center;
   color: #000;
-  font-family: "Roboto";
+  font-family:  Lexend Deca;
 
   font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
+
 .leftinner p {
-  color: #000;
   font-family: Poppins;
   font-size: 20px;
+  margin:revert;
+ /* color: #000;
+
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  color: black;
+ 
   display: flex;
-  align-items: center;
+  align-items: center;*/
+
+
+}
+.btn3 h4{
+  font-family:  Lexend Deca;
+
 }
 .right {
   background-image: url(./img/Rectangle\ 2.png);
@@ -135,19 +151,30 @@ h1 {
 
   align-items: center;
 }
+ .rightside p{
+  color: #000;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
 
+margin:revert;
+ }
 h4 {
   background-image: url("./img/Group.svg");
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
   color: #000;
-  font-family: "Roboto";
-
+  font-family:  Lexend Deca;
   font-size: 25px;
+  margin-top:  revert;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+
+
 }
 
 /*  css  for third block */
@@ -159,9 +186,9 @@ h4 {
 }
 h5 {
   color: #000;
-  font-family: "Roboto";
+  font-family: Lexend Deca;
   margin-bottom: 10px;
-  font-size: 25px;
+  font-size: 32px;
   background-image: url("./img/Group.svg");
   background-repeat: repeat-x;
   font-weight: 700;
@@ -169,14 +196,22 @@ h5 {
 }
 
 .right3con {
-  padding: 30px;
+ 
   align-items: center;
   margin-left: 40px;
   flex-direction: column;
   display: flex;
-  width: 70%;
+  width: 60%;
   justify-content: center;
   align-items: center;
+}
+.right3con p{
+  color: #000;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
 .left3con {
   padding: 30px;
@@ -184,23 +219,38 @@ h5 {
   margin-left: 40px;
   flex-direction: column;
   display: flex;
-  width: 30%;
+  width: 40%;
 
-  align-items: flex-end;
+ justify-content: center;
+}
+.left3con p{
+  color: rgba(24, 24, 24, 0.80);
+text-align: center;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
 .btn6 {
-  background: #f5f5f5;
-  border-radius: 15px;
+  border-radius: 20px;
+background: #F5F5F5;
+border: none;
+width: 250px;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+ /* background: #F5F5F5;
+ border: none;
   height: auto;
-  filter: drop-shadow(2px 3px 3px black);
+ */
   top: 1581px;
   left: 1065px;
 }
 .btn2 {
-  background: #f5f5f5;
-  border-radius: 15px;
-
-  filter: drop-shadow(2px 3px 3px black);
+  border-radius: 20px;
+  background: #F5F5F5;
+  border: none;
+  width: 250px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   top: 1581px;
   left: 1065px;
 }
@@ -209,11 +259,23 @@ h5 {
 
   align-items: center;
   margin: 0 50px;
+  color: #000;
+font-family: Lexend Deca;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }
 .btn2 h4 {
   display: flex;
   align-items: center;
   margin: 0 80px;
+  color: #000;
+font-family: Lexend Deca;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }
 
 /*  css  for fourth block */
@@ -222,7 +284,7 @@ h5 {
   background-color: white;
   display: flex;
   margin: 40px;
-  width: auto;
+ 
 }
 .container4-left {
   display: flex;
@@ -231,7 +293,16 @@ h5 {
   justify-content: center;
   background-color: white;
   flex-direction: column;
+
 }
+
+.container4-left li
+{color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;}
 .leftimage {
   display: flex;
   flex-direction: row;
@@ -246,6 +317,7 @@ h5 {
   overflow: hidden;
   display: flex;
   flex-direction: column;
+ 
 }
 
 .upper {
@@ -289,6 +361,11 @@ h3 {
   margin-left: 200px;
   margin-top: 50px;
   color: white;
+
+
+
+font-family: Lexend Deca;
+
 }
 
 .leftback img {
@@ -304,8 +381,10 @@ h3 {
   align-items: center;
 }
 .btn10 {
+  
+  width: 15%;
   height: 50px;
-
+  margin-top: 5px;
   border-radius: 8px;
   background: #ecb942;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -332,7 +411,10 @@ h3 {
   .container3 {
     flex-direction: column;
   }
-
+ .right3con{
+  padding: 30px;
+  
+ }
   .left3con {
     justify-content: center;
     align-items: center;

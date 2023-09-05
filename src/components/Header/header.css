@@ -1,16 +1,20 @@
 .head {
-    background: #ecb942;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  
-    height: 60px;
-  }
-  .head h4 {
-    color: black;
-    display: flex;
-    align-items: center;
-    line-height: normal;
-    font-size: larger;
-  }
-  
+  background: #ecb942;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 110px;
+}
+.head h4 {
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Poppins;
+
+  font-size: 34.181px;
+  font-style: Bold;
+  font-weight: 800;
+  line-height: normal;
+}

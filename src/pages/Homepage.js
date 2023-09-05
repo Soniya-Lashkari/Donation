@@ -1,16 +1,12 @@
 import React from "react";
 import "../App.css";
-import "@fontsource/roboto/300.css";
-import "@fontsource/roboto/400.css";
-import "@fontsource/roboto/500.css";
-import "@fontsource/roboto/700.css";
+
 import image2 from "../img/Place Your Image Here (Double Click to Edit).png";
 import image4 from "../img/Rectangle 3.png";
 import image55 from "../img/Rectangle 4.png";
 import img from "../img/Rectangle 5.svg";
 import image3 from "../img/IMG_20230822_121604.jpg";
-import imagee from "../img/IMG_20230822_121814.jpg";
-import imagee2 from "../img/IMG_20230822_122029.jpg";
+
 import image5 from "../img/image-removebg-preview 1.png";
 import three1 from "../img/Photo (1).png";
 import three2 from "../img/Photo (2).png";
@@ -32,6 +28,7 @@ const Homepage = () => {
               Babu ki rasoi is a digital platform for collecting donations to be
               distributed to people in need.
             </p>
+
             <div className="inner2">
               <button className="btn1">Download Now</button>
               <p> Discover</p>
