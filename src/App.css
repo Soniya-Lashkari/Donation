@@ -35,10 +35,10 @@ h1 {
   display: flex;
   align-items: center;
   color: #000;
-  font-family:  Lexend Deca;
+  font-family:Lexend Deca;
 
   font-style: normal;
-  font-weight: 700;
+ 
   line-height: normal;
 }
 
@@ -70,7 +70,7 @@ h1 {
 }
 .rightfirstimg {
   display: flex;
-  margin-left: 20px;
+  margin-left: 60px;
 
   align-items: center;
   justify-content: center;
@@ -88,7 +88,7 @@ h1 {
 
   align-items: center;
   justify-content: center;
-  margin-left: 10px;
+  margin-left: 30px;
 }
 .rightsecondimg img {
   height: 300px;
@@ -151,15 +151,24 @@ h1 {
 
   align-items: center;
 }
+.rightside img{
+  height: 100px;
+  width: auto;
+  margin-left: auto;
+}
  .rightside p{
   color: #000;
-font-family: Poppins;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  /* font-style: normal; */
+  /* font-weight: 400; */
+  /* line-height: normal; */
+  margin-bottom: 40px;
+  margin-top: 10px;
 
-margin:revert;
+
+
  }
 h4 {
   background-image: url("./img/Group.svg");
@@ -169,7 +178,7 @@ h4 {
   color: #000;
   font-family:  Lexend Deca;
   font-size: 25px;
-  margin-top:  revert;
+  
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -183,6 +192,9 @@ h4 {
   opacity: 0.9;
   background: #f3fcf7;
   height: auto;
+}
+.container3 img{
+  height: 100px;
 }
 h5 {
   color: #000;
@@ -198,12 +210,14 @@ h5 {
 .right3con {
  
   align-items: center;
-  margin-left: 40px;
+
   flex-direction: column;
   display: flex;
   width: 60%;
   justify-content: center;
   align-items: center;
+  margin-top: 30px;
+  margin-bottom: 40px;
 }
 .right3con p{
   color: #000;
@@ -280,11 +294,11 @@ line-height: normal;
 
 /*  css  for fourth block */
 .container4 {
+ 
   height: auto;
   background-color: white;
   display: flex;
   margin: 40px;
- 
 }
 .container4-left {
   display: flex;
@@ -293,6 +307,8 @@ line-height: normal;
   justify-content: center;
   background-color: white;
   flex-direction: column;
+ 
+  
 
 }
 
@@ -306,10 +322,15 @@ line-height: normal;
 .leftimage {
   display: flex;
   flex-direction: row;
+ 
 }
 .leftimage img {
   padding: 2px;
-  width: 40%;
+ width:  40%;
+  
+}
+.leaf{
+  margin-right: 90%;
 }
 .container4-right {
   width: 50%;
@@ -318,21 +339,25 @@ line-height: normal;
   display: flex;
   flex-direction: column;
  
+ 
 }
-
+.spoon{
+  height: 200px;
+  
+}
 .upper {
   display: flex;
   margin-top: 20%;
 }
 .upper img {
   padding: 3px;
-  width: 50%;
+  width: 40%;
   height: auto;
   box-sizing: border-box;
 }
 
 .lower img {
-  width: 50%;
+  width: 40%;
   height: auto;
   box-sizing: border-box;
 }
@@ -411,8 +436,13 @@ font-family: Lexend Deca;
   .container3 {
     flex-direction: column;
   }
+  .container3 img {
+    display: none;
+  }
+
  .right3con{
   padding: 30px;
+  margin-left: 40px;
   
  }
   .left3con {
@@ -430,8 +460,12 @@ font-family: Lexend Deca;
   .upper {
     margin-top: 10%;
   }
+  .leftimage img{
+    width: 40%;
+  }
   .container4-left {
     width: 100%;
+    margin-right: 40px;
   }
 
   .centerback {

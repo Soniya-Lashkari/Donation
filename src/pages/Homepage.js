@@ -14,6 +14,9 @@ import three3 from "../img/Photo (3).png";
 import three4 from "../img/Photo.png";
 import three6 from "../img/IMG20230705122931 1.png";
 import three5 from "../img/IMG20230712184424 2.png";
+import second from "../img/Vector Smart Object (Double Click to Edit).png";
+import third from "../img/third.png";
+import leaf from "../img/leaf.png";
 
 const Homepage = () => {
   return (
@@ -64,7 +67,9 @@ const Homepage = () => {
           <img src={image3} />
         </div>
         <div className="rightside">
-          <h4>Babu ki Rasoi </h4>
+          <img src={second} />
+
+          <h4>Babu ki Rasoi</h4>
           <p>
             At Anant Aman SWS, we believe in spreading joy and making a positive
             impact in our community. One of the ways we do this is by
@@ -83,6 +88,7 @@ const Homepage = () => {
       </div>
 
       <div className="container3">
+        <img src={third} />
         <div className="right3con">
           <h5> How can you help?</h5>
           <p>
@@ -131,6 +137,11 @@ const Homepage = () => {
           <div className="leftimage">
             <img src={three6} />
             <img src={three5} />
+          </div>
+
+          <div className="leaf">
+            {" "}
+            <img src={leaf} />
           </div>
         </div>
 

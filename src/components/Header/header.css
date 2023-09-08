@@ -6,7 +6,7 @@
 
   height: 110px;
 }
-.head h4 {
+.head h2 {
   color: black;
   display: flex;
   align-items: center;
@@ -17,4 +17,14 @@
   font-style: Bold;
   font-weight: 800;
   line-height: normal;
+
+ 
+}
+.img{
+ margin-bottom: auto;
+}
+.image{
+  margin-top:55px;
+  display: flex;
+  flex-direction: column;
 }
